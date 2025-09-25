@@ -1,6 +1,6 @@
 document.getElementById('whatsappLink').addEventListener('click', function(event) {
     const data = document.getElementById('dataInput').value;
-    const phoneNumber = '5599992038'; // Telefone sem o '+' ou hifens
+    const phoneNumber = '****************'; // Telefone sem o '+' ou hifens
     const message = encodeURIComponent(`Olá, aqui está a informação que quero enviar:\n\n${data}`);
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     
